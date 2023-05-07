@@ -127,9 +127,9 @@ public class Week03ArraysandMethodsLab {
 		//			returns an array of int where each element
 		//			matches the length of the string at that position
 		
-		//	int[] nameLengths = getLengthOfString(names);
-		//	for(int number: nameLengths) {
-			// sysout(number);}
+			int[] nameLengths = getLengthOfString(names);
+			for(int number: nameLengths) {
+			 System.out.println(number);}
 	//
 
 		// 20. Write and test a method that takes an array of strings and 
@@ -224,15 +224,16 @@ private static boolean compareTwo(String str, int num) {
 		return sum/numbers.length;
 	}
 
+
 	
 	// Method 19:
 
-	//public static int[] getLengthOfString(String[] strings) {
+//	public static int[] getLengthOfString(String[] strings) {
 	//	int[] = new int[strings.length];
 	//	for(int i=0; i<strings.length; i++) {
-	//		results[i] = strings[i].length();
+			results[i] = strings[i].length();
 	//	}
-	//	return results;
+		return results;
 //	}
 
 
@@ -250,8 +251,9 @@ private static boolean compareTwo(String str, int num) {
 			}else {
 			oddLetters += string.length();
 		}
-			return evenLetters > oddLetters;
+			
 		}
+		return evenLetters > oddLetters;
 	}
 
 
@@ -267,7 +269,10 @@ public static boolean isPalindrone(String string) {
 		return true;
 	}
 }
-	}
+}
+}
+
+	
 	
 
 
